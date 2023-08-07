@@ -4,7 +4,13 @@
     box-sizing: border-box;
     color: var(--text-color);
 }
-
+html {
+  background-image: url(./assets/FUNDO\ -\ STORIES\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-color: #0A2444;
+}
 :root {
     --text-color: rgb(215, 213, 213);
     --stroke-color: rgba(0, 0, 0, 0.184);
@@ -18,10 +24,7 @@
   }
 
 body{
-    background-image: url(./assets/FUNDO\ -\ STORIES\ 2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
+
     font-family: 'Inter', sans-serif;
     height: 100vh;
 }
